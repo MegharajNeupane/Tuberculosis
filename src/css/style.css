@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: "white";
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #273746;
+  color: white;
+  height: 50px;
+  position: relative;
+}
+
+.project-name {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  padding-left: 25px;
+  scale: 1;
+  cursor: pointer;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0px;
+  padding-left: 700px;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.adminName {
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 3px;
+  padding: 5px;
+  border-color: white;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-align: center;
+  color: white;
+  font-size: 35;
+  font-weight: 700;
+  border-width: 0.5px;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  color: #f1948a;
+  border-color: #f1948a;
+}
+
+.navbar-links li:hover {
+  color: #f1948a;
+}
+
+.main-descard {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.descard {
+  display: inline-block;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.descard:hover {
+  box-shadow: 4px 4px 10px grey;
+  box-sizing: content-box;
+}
+
+.descard-title {
+  margin: 10px;
+  width: fit-content;
+}
+
+.descard-title h4 {
+  font-weight: 650;
+  font-style: normal;
+}
+
+.descard-value {
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+.descard-value h6 {
+  font-size: 13px;
+}
+
+.main-chartcard {
+  margin-top: 45px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.chartcard {
+  width: auto;
+  display: inline-block;
+  margin-left: 30px;
+  align-items: center;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.chartcard:hover {
+  box-shadow: 4px 4px 10px grey;
+}
+
+.chart-container {
+  margin: 8px 10px;
+  height: 200px;
+  width: auto;
+}
